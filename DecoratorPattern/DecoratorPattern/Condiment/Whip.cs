@@ -11,7 +11,7 @@ namespace DecoratorPattern.Condiment
         Beverage beverage;
 
         public Whip(Beverage beverage)
-         {
+        {
             this.beverage = beverage;
             Description = beverage.GetDescription() + ", Whip";
         }
